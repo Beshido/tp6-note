@@ -10,6 +10,7 @@ class Arete {
         int poids;
         Sommet* sommet1;
         Sommet* sommet2;
+
         
 
     public:
@@ -17,10 +18,5 @@ class Arete {
         Arete(Arete &a);
         Arete(int poids, Sommet* sommet1, Sommet* sommet2);
 };
-
-
-
-
-
 
 #endif
