@@ -12,6 +12,8 @@ class Sommet {
 
     public:
         Sommet(char* etiquette);
+        void setMarquage(int i);
+        char* getEtiquette() const;
 };
 
 const ostream& operator <<(ostream& out, const Sommet &i);
