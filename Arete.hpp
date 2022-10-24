@@ -8,6 +8,8 @@ using namespace std;
 class Arete {
     private:
         int poids;
+        Sommet* sommet1;
+        Sommet* sommet2;
         
 
     public:
